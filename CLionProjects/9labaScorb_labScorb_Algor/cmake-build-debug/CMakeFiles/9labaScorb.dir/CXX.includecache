@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/adelinazagitova/CLionProjects/9labaScorb/list.hpp
+vector
+-
+
+/Users/adelinazagitova/CLionProjects/9labaScorb/main.cpp
+iostream
+-
+list.hpp
+/Users/adelinazagitova/CLionProjects/9labaScorb/list.hpp
+
